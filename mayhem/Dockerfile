@@ -18,4 +18,4 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 
 ## TODO: Change <Path in Builder Stage>
 
-COPY --from=builder /similar/fuzz/target/x86_64-unknown-linux-gnu/release/capture_diff 
+COPY --from=builder /similar/fuzz/target/x86_64-unknown-linux-gnu/release/capture_diff /

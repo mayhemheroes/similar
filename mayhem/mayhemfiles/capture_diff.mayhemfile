@@ -1,0 +1,6 @@
+project: similar
+target: capture_diff
+duration: 300
+
+cmds:
+  - cmd: /capture_diff
